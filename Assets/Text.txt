@@ -1,0 +1,42 @@
+[ Chapter = "Apartment" Amount = 3 ]
+{
+  Name = "WakeUp"
+  Type = "Action"
+  T = "Player wakes up and looks around"
+  F = "Player stays asleep"
+  Ts1 = "AlarmClock"
+  Fs1 = "DreamContinues"
+}
+
+{
+  Name = "FindPhone"
+  Type = "Task"
+  T = "Player finds the phone on the table"
+  F = "Player ignores it"
+  Ts1 = "ScreenLightsUp"
+  Fs1 = "Silence"
+}
+
+{
+  Name = "CheckNotifications"
+  Type = "Choice"
+  T = "Player opens TikTok"
+  F = "Player puts phone back"
+}
+
+[ Chapter = "TikTok Loop" Amount = 2 ]
+{
+  Name = "FirstScroll"
+  Type = "Event"
+  T = "Funny video appears"
+  F = "App crashes"
+}
+
+{
+  Name = "EndlessScroll"
+  Type = "Loop"
+  T = "Player keeps scrolling"
+  F = "Battery dies"
+  Ts1 = "NextVideo"
+  Fs1 = "PhoneTurnsOff"
+}
