@@ -4,6 +4,22 @@
 
 ---
 
+## 📚 База знаний проекта (Knowledge Base)
+
+Полный каталог документации и рабочих материалов доступен в файле **[KNOWLEDGE_BASE.md](KNOWLEDGE_BASE.md)**:
+
+| Категория | Ресурс | Ссылка |
+|---|---|---|
+| 📖 **Сценарий** | Полный текст, биография Марты, реплики и мысли | [Google Docs — Сценарій](https://docs.google.com/document/d/1HBzs7jZupszcRMV0krgV-MC_gyfw70NAKu31s6CA37A/edit?usp=drive_link) |
+| 🗺️ **Сюжет** | Построение таймлайна, арки и развилки концовок | [Figma Board — Сюжети](https://www.figma.com/board/HYB6ST7YdbdQIlbf0vQIR0/%D1%81%D1%8E%D0%B6%D0%B5%D1%82%D0%B8?node-id=0-1&t=BzXORrVyLctUUFNp-0) |
+| 📊 **Баланс и логика** | Сводная таблица параметров уровней, мыслей и ускорения | [Google Sheets — База знань](https://docs.google.com/spreadsheets/d/1XUr8D7grkl9YYK4-isqom1bf3fe2rkf4_f8_JRsRw5Y/edit?gid=1678729840#gid=1678729840) |
+| 🎨 **Арт-референсы** | Графические стили комиксов и примеры кадрирования | [Google Drive — Референси в коміксах](https://drive.google.com/drive/folders/1lljuRWAM_RW0hKfmAnH97xvtqXWJHJJQ) |
+| 🖥️ **Дизайн UI** | Все макеты интерфейса, экранов, панелей и карточек | [Figma Design — Інтерфейс](https://www.figma.com/design/CP04rlSNyoUaBhsXTM5vDN/%D0%86%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81?node-id=1-8&p=f&t=AVN0Bu5CYZ63kDRA-0) |
+| 📐 **UI-заметки** | Концепты меню, попапов, экрана самоанализа и блога | [Figma Board — Інтерфейс - замітки](https://www.figma.com/board/lp7AALLe0kOo6EzcyAduBR/%D0%86%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81---%D0%B7%D0%B0%D0%BC%D1%96%D1%82%D0%BA%D0%B8?t=2eDSos9ik38KVmGu-6) |
+| 📱 **Маркетинг** | Готовые мемы и вертикальные нарезки для TikTok/Shorts | [Google Drive — Мемы для TikTok](https://drive.google.com/drive/folders/13QF0BmLgsXgU2VHn5xSk9E-oSFFU_jSQ?usp=drive_link) |
+
+---
+
 ## 👥 Роли и трекинг задач команды
 
 Все задачи разбиты по направлениям и отслеживаются во вкладке **[Issues](https://github.com/luizanoliza/rain-of-thoughts/issues)**:
@@ -86,11 +102,9 @@
 
 ## 🛠️ Структура проекта
 
+- **`KNOWLEDGE_BASE.md`** — Единая база знаний со всеми ссылками на Figma, Google Docs/Sheets/Drive
 - **`Assets/Scripts/`** — Скрипты игровой логики (`GridSpawner.cs`, `StoryDataLoader.cs`, `UIManager.cs` и др.)
-- **`Assets/Animations/`** — Анимации и видеоматериалы по трем подразделам:
-  - **`гіфки Марти/`** — Анимации эмоций и состояний Марты
-  - **`гіфки на рівнях/`** — Анимации внутриигровых объектов (кот, цветы, лампа, паук и др.)
-  - **`для тік ток/`** — Вертикальные видеоролики и анимации для соцсетей
+- **`Assets/Animations/`** — Анимации и видеоматериалы по трем подразделам (`гіфки Марти/`, `гіфки на рівнях/`, `для тік ток/`)
 - **`Assets/Voiceover/`** — Аудиофайлы озвучки реплик Марты (.m4a)
 - **`Assets/Sounds/`** — Звуковые эффекты (SFX) игры
 - **`Assets/Music/`** — Музыкальные темы и дорожки
